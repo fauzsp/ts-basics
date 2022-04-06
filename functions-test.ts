@@ -1,5 +1,4 @@
-import addNumbers, { addStrings, format } from "./functions";
+import addNumbers, { addStrings, format, printFormat } from "./functions";
 const x = addNumbers(3, 4);
 const y = addStrings("hello");
-const z = format("hello", 3);
-console.log(z);
+console.log(printFormat("hello", "guys here"));
